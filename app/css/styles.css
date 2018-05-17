@@ -1,6 +1,7 @@
 body {
   background: #ccc;
+  height: 3000px;
   font-family: 'Gothic A1', sans-serif; }
 
-h2 {
-  color: red; }
+form {
+  background: #ff0; }
