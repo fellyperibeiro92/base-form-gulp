@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<meta http-equiv=X-UA-Compatible content="IE=edge">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title></title>
+<link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+
+<form method="POST" action="obrigado.php">
+	<div class="col-xs-12 padding0">
+		<div class="form-group">
+			<input type="text" class="form-control nome" placeholder="Nome completo" required name="nome">
+		</div>
+	</div>
+
+	<div class="col-xs-12 padding0">
+		<div class="form-group">
+			<input type="email" class="form-control email" placeholder="E-mail" required name="email">
+		</div>
+	</div>
+
+	<div class="col-xs-12 padding0">
+		<div class="form-group">
+			<input type="tel" class="form-control fone" placeholder="Telefone ou Celular" required name="fone">
+		</div>
+	</div>
+
+	<div class="col-xs-12 padding0">
+		<div class="form-group">
+			<textarea type="text" class="form-control msg" rows="5" placeholder="Mensagem" required name="msg"></textarea>
+		</div>
+	</div>
+
+	<div class="col-xs-12 padding0">
+		<div class="form-group">
+			<input type="text" class="form-control melhorData" placeholder="Melhor data" required name="melhorData">
+		</div>
+	</div>
+
+	<div class="col-xs-12 padding0">
+		<div class="form-group">
+			<input type="text" class="form-control melhorHora" placeholder="Melhor horário" required name="melhorHora">
+		</div>
+	</div>
+
+	<div class="col-xs-12 padding0">
+		<div class="form-group">
+			<select class="form-control assunto" required name="assunto">
+				<option></option>
+				<option>Teste 01</option>
+				<option>Teste 02</option>
+				<option>Teste 03</option>
+			</select>
+		</div>
+	</div>
+
+	<div class="col-xs-12 padding0">
+		<button type="submit" name="submit_orcamento" class="btn btn-default">Enviar</button>
+	</div>
+</form>
+
+<script src="js/main.min.js"></script>
+</body>
+</html>
